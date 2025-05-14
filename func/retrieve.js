@@ -1,4 +1,4 @@
-import type { Context } from "@netlify/functions"
+import { Context } from "@netlify/functions"
 import { getStore } from "@netlify/blobs";
 
 export default async (req: Request, context: Context) => {
