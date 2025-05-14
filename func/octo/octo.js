@@ -3,7 +3,7 @@
 const fetch = require('node-fetch');
 
 exports.handler = async function (event, context, callback) {
-  let url = 'https://api.github.com/users/octocat/repos?type=owner';
+  let url = 'https://api.github.com/users/kyalong/repos?type=owner';
 
   let res = await fetch(url);
   let data = await res.json();
