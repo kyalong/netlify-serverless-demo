@@ -1,0 +1,17 @@
+{
+  "name": "zendesk-backend",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "npm run build" 
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0",
+    "@netlify/functions": "^2.8.2"
+   
+  },
+  "devDependencies": {
+    "@types/blobshape": "^1.0.3",
+    "@types/node": "^20.12.7"
+  }
+}
