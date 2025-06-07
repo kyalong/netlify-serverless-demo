@@ -7,9 +7,9 @@ exports.handler = async function (event, context, callback) {
 
   let res = await fetch(url);
   let data = await res.json();
-
+  let categoryData = data.data;
    if (data.code === 0) {
-                        let categoryData = data.data;
+                       
                         const traverse = (arr) => {
                             return arr.map(item => {
                                 if (item.children.length > 0) {
