@@ -31,6 +31,7 @@ exports.handler = async function (event, context, callback) {
                             });
                         };
                         categoryData = traverse(categoryData);
+  }
 
   callback(null, {
     statusCode: 200,
