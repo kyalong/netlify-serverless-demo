@@ -6,11 +6,12 @@
     "build": "npm run build"
   },
   "dependencies": {
+     "node-fetch": "^2.6.0",
     "@netlify/blobs": "^8.2.0",
     "@netlify/functions": "^2.8.2"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.0",
+   
     "@types/blobshape": "^1.0.3",
     "@types/node": "^20.12.7"
   },
