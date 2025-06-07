@@ -5,9 +5,9 @@ exports.handler = async function (event, context, callback) {
   let url = 'https://www.webdesk.cc/backend/api/v1/tabLink/category/list?type=link';
   let res = await fetch(url);
   let data = await res.json();
-  let categoryData = data.data;
+
    if (data.code === 0) {
-                       
+                         let categoryData = data.data;
                         const traverse = (arr) => {
                             return arr.map(item => {
                                 if (item.children.length > 0) {
@@ -29,10 +29,11 @@ exports.handler = async function (event, context, callback) {
                             });
                         };
                         categoryData = traverse(categoryData);
+                        callback(null, {
+                        statusCode: 200,
+                        body: JSON.stringify(categoryData),
+  });
   }
 
-  callback(null, {
-    statusCode: 200,
-    body: JSON.stringify(categoryData),
-  });
+ 
 };
