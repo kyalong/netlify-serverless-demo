@@ -21,3 +21,8 @@
   from = "/api/category"
   to = "/.netlify/functions/category"
   status = 200
+
+  [[redirects]]
+  from = "/api/link"
+  to = "/.netlify/functions/link"
+  status = 200
