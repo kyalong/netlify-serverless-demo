@@ -33,7 +33,7 @@ function getYes(ev) {
 function getOcto(ev) {
   ev.preventDefault();
   console.log('get octocat');
-  fetch('/api/octo')
+  fetch('/api/category')
     .then((res) => res.json())
     .then((data) => {
       let main = document.querySelector('main');

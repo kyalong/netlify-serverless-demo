@@ -18,6 +18,6 @@
   status = 200
 
 [[redirects]]
-  from = "/api/octo"
+  from = "/api/category"
   to = "/.netlify/functions/octo"
   status = 200
