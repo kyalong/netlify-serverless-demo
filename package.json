@@ -10,6 +10,7 @@
     "@netlify/functions": "^2.8.2"
   },
   "devDependencies": {
+    "node-fetch": "^2.6.0",
     "@types/blobshape": "^1.0.3",
     "@types/node": "^20.12.7"
   },
