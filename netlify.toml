@@ -1,6 +1,5 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
-[[plugins]]
-package = "@netlify/blobs"
+
 [build]
   publish = ""
   # the root website directory
