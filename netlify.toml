@@ -19,5 +19,5 @@
 
 [[redirects]]
   from = "/api/category"
-  to = "/.netlify/functions/octo"
+  to = "/.netlify/functions/category"
   status = 200
