@@ -3,7 +3,7 @@
 [build]
   publish = ""
   # the root website directory
-  command = "npm run build"
+  command = "echo 'I be building' "
   # the build command
   functions = "func/"
   
